@@ -11,7 +11,10 @@ public class OS_ApexExample implements System.Callable  {
         system.debug('inputs'+(Map<String,Object>)data.get('input'));
         Map<String,Object> output = new Map<String,Object>();
         output.put('test','test1');
-        data.put('outputtttykdhhh',output);     
+        data.put('outputtttykdhhh',output); 
+        
+        System.debug('Good Morning');
+        System.debug('Good Morning!!');
         
         return null;
     }
