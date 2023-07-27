@@ -14,6 +14,7 @@ public class OS_ApexExample implements System.Callable  {
         data.put('outputtttykdhhh',output); 
         
         System.debug('Good Morning');
+        System.debug('Good Morning!!');
         
         return null;
     }
